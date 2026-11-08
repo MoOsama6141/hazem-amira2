@@ -1,0 +1,10 @@
+{
+  "name": "hazem-amira2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wedding invitation for Hazem & Amira",
+  "scripts": {
+    "dev": "npx --yes serve -l 3847 .",
+    "start": "npx --yes serve -l 3847 ."
+  }
+}
