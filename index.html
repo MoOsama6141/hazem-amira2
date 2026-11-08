@@ -504,7 +504,7 @@ textarea.in2{resize:none;min-height:5.6em;line-height:1.55;text-align:center;ove
   if(vid.readyState>=3)ready();else{vid.addEventListener('canplay',ready,{once:true});setTimeout(ready,4000)}
   function ripple(e){if(rm||e.clientX==null)return;var r=document.createElement('i');r.className='rp';r.style.left=e.clientX+'px';r.style.top=e.clientY+'px';stage.appendChild(r);setTimeout(function(){r.remove()},1200)}
   /* ===== الأغنية: sss.mp3 جنب ملف الـ html ===== */
-  var song=new Audio('sss.mp3');song.loop=true;song.preload='auto';
+  var song=new Audio('https://github.com/MoOsama6141/hazem-amira2/releases/download/assets-v1/sss.mp3');song.loop=true;song.preload='auto';
   var songOn=false;
   function playSong(){
     var q=song.play();
